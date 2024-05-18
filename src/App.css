@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #0d1418;
+}
+
+.main-header{
+  min-width: 360px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10 ;
+  background-color: #0d1418;
+  box-shadow: 0 4px 8px rgba(0,0,0,.5);
+  transition: 2s ;
+  display: block
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  min-height: 60px;
+  /* Adjust the max height as needed */
+}
+
+.bell-icon,
+.login-icon {
+  margin-left: 10px;
+}
+
+
+
+
+
+
+.leads {
+  margin-top: 50px;
+}

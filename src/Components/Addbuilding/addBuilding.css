@@ -1,0 +1,769 @@
+
+.red-project-edit {
+  textarea:focus,
+  input[type='text']:focus,
+  input[type='password']:focus,
+  input[type='datetime']:focus,
+  input[type='datetime-local']:focus,
+  input[type='date']:focus,
+  input[type='month']:focus,
+  input[type='time']:focus,
+  input[type='week']:focus,
+  input[type='number']:focus,
+  input[type='email']:focus,
+  input[type='url']:focus,
+  input[type='search']:focus,
+  input[type='tel']:focus,
+  input[type='color']:focus,
+  .uneditable-input:focus {
+    border-color: none;
+    box-shadow: none;
+    outline: 0 none;
+  }
+
+  .list-index-num {
+    
+    color: #7e9096;
+  }
+  .react-datepicker-wrapper {
+    position: relative;
+
+    &::after {
+      color: white;
+      background-image: none;
+      position: absolute;
+      top: 0;
+      right: 0;
+      pointer-events: none;
+    }
+  }
+  .button-upload {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4); 
+    cursor: pointer;
+    font: inherit; 
+    color: #7e9096;
+  }
+  .button-upload:focus {
+    outline-offset: 4px; 
+  }
+  .btn-edit {
+    display: inline-block;
+    background-color: transparent;
+    padding: 2px 8px;
+    margin-right: 8px;
+    .svg {
+      margin-bottom: 2px;
+    }
+
+    .btn-text {
+      margin-left: 4px;
+      @include ophs-fonts(12, 400, 20px);
+      color: $white;
+    }
+  }
+  .btn-delete {
+    display: inline-block;
+    height: auto;
+    background-color: transparent;
+    padding: 2px 4px;
+    .svg {
+      margin-bottom: 2px;
+    }
+
+    .btn-text {
+      margin-left: 4px;
+    }
+  }
+
+  .form-input-item {
+    margin-bottom: 24px;
+
+    .form-label {
+      margin-bottom: 3px;
+      color: #7e9096;
+    }
+
+    .asterisk-mark {
+      color: red;
+    }
+
+    .form-control {
+      border: none;
+      background: transparent;
+      padding: 0; 
+      color: #ffffff;
+      &::placeholder {
+        color: #525e62;
+      }
+
+      &:disabled {
+        opacity: 0.5;
+      }
+    }
+
+    .edit-form-control-bottom-border {
+      margin: 3px 0px 0px 0px;
+      height: 1px;
+      background-color: rgba(255, 255, 255, 0.4);
+      opacity: 1;
+    }
+    .react-datepicker-wrapper {
+      position: relative;
+      &::after {
+        content: '\e915';
+        font-family: 'ophsIcon' !important;
+        color: white;
+        background-image: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        pointer-events: none;
+      }
+    }
+    &:last-of-type {
+      margin-bottom: 0px;
+    }
+
+    &.phone-num-code-block {
+      .phone-num-code-wrapper {
+        display: flex;
+        align-items: end;
+        column-gap: 10px;
+
+        .country-code {
+          flex-basis: 44px;
+          flex-grow: 0;
+        }
+        .phone-number {
+          flex-grow: 1;
+          .form-control {
+            padding: 0.175rem 0.75rem;
+          }
+        }
+      }
+    }
+
+    .input-bottom-divider {
+      margin: 3px 0px 0px 0px;
+      height: 1px;
+      background-color: #7e9096;
+      opacity: 1;
+    }
+  }
+
+  .form-input-textarea {
+    margin-bottom: 24px;
+    .form-label {
+      margin-bottom: 3px;
+      color: #7e9096;
+    }
+    .text-area-count {
+      margin-bottom: 0px;
+      color: #7e9096;
+    }
+    .asterisk-mark {
+      color: red;
+    }
+
+    .form-control {
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      background: transparent;
+      color: #ffffff;
+      &::placeholder {
+        color: #525e62;
+      }
+    }
+
+    .edit-form-control-bottom-border {
+      margin: 3px 0px 0px 0px;
+      height: 1px;
+      background-color: rgba(255, 255, 255, 0.4);
+      opacity: 1;
+    }
+  }
+
+  .input-form-area {
+    margin-bottom: 32px;
+    .input-form-area-header {
+      color: #ffffff;
+    }
+    .input-form-area-body {
+      margin-top: 16px;
+      border-radius: 4px;
+    }
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  .top-heading {
+    color: #7e9096;
+    margin-bottom: 26px;
+  }
+ 
+  .accordion-block {
+    --bs-accordion-border-width: 0px; 
+    --bs-accordion-active-bg: transparent; 
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    .accordion-button {
+      box-shadow: none;
+      border-bottom: 1px solid #162436;
+      position: relative;
+      z-index: 1;
+      outline: none;
+
+      &::before {
+        content: ' ';
+        position: absolute;
+        left: 1.5px;
+        top: 1.5px;
+        bottom: 1.5px;
+        right: 1.5px;
+        z-index: -2;
+        background: #162436; 
+        outline: none;
+      }
+    }
+
+    .accordion-button:not(.collapsed) {
+      // background: linear-gradient(
+      //   105.12deg,
+      //   #4e76a6 -12.46%,
+      //   #80316e 25.4%,
+      //   #f6f8bf 60.06%,
+      //   #1a7272 88.95%
+      // );
+      outline: none;
+
+      &::before {
+        background: #162436; // used for accordion button background
+        outline: none;
+      }
+    }
+
+    // detail accordion item
+    .accordion-item {
+      margin-bottom: 2px;
+      color: #e5e5e5;
+      box-shadow: none;
+      position: relative;
+      // background: linear-gradient(
+      //   105.12deg,
+      //   #4e76a6 -12.46%,
+      //   #80316e 25.4%,
+      //   #f6f8bf 60.06%,
+      //   #1a7272 88.95%
+      // );
+      z-index: 1;
+      &::before {
+        content: ' ';
+        position: absolute;
+        left: 1.5px;
+        top: 1.5px;
+        bottom: 1.5px;
+        right: 1.5px;
+        z-index: -2;
+        background: #2a3546;
+      }
+    }
+  }
+
+  // form styles
+  .project-info-form-section {
+    textarea:focus,
+    input[type='text']:focus,
+    input[type='password']:focus,
+    input[type='datetime']:focus,
+    input[type='datetime-local']:focus,
+    input[type='date']:focus,
+    input[type='month']:focus,
+    input[type='time']:focus,
+    input[type='week']:focus,
+    input[type='number']:focus,
+    input[type='email']:focus,
+    input[type='url']:focus,
+    input[type='search']:focus,
+    input[type='tel']:focus,
+    input[type='color']:focus,
+    .uneditable-input:focus {
+      border-color: none;
+      box-shadow: none;
+      outline: 0 none;
+    }
+
+    .project-info-form-wrapper {
+      .form-input-item {
+        margin-bottom: 24px;
+        .form-label {
+          margin-bottom: 3px;
+          @include ophs-fonts(12, 300, 28px);
+
+          color: #7e9096;
+        }
+
+        .asterisk-mark {
+          color: red;
+        }
+
+        .form-control {
+          border: none;
+          background: transparent;
+          padding: 0;
+          @include ophs-fonts(14, 300, 10px);
+          color: #ffffff;
+
+          &::placeholder {
+            color: #525e62;
+          }
+
+          &:disabled {
+            opacity: 0.5;
+          }
+        }
+
+        .edit-form-control-bottom-border {
+          margin: 3px 0px 0px 0px;
+          height: 1px;
+          background-color: rgba(255, 255, 255, 0.4);
+          opacity: 1;
+        }
+
+        // .icon-calendar {
+        //   font-size: 13.33px;
+        //   color: #ffffff;
+        // }
+
+        // on IOS devices
+        // input::-webkit-date-and-time-value {
+        //   text-align: left;
+        // }
+        // input[type='date']::-webkit-calendar-picker-indicator {
+        //   color: transparent;
+        //   background: none;
+        //   z-index: 1;
+        // }
+
+        .react-datepicker-wrapper {
+          position: relative;
+
+          &::after {
+            content: '\e915';
+            font-family: 'ophsIcon' !important;
+            color: white;
+            background-image: none;
+            position: absolute;
+            top: 0;
+            right: 0;
+            pointer-events: none;
+          }
+        }
+
+        // .accordion-button::after {
+        //   content: '\e91d';
+        //   font-family: 'ophsIcon' !important;
+        //   color: white;
+        //   background-image: none;
+        // }
+
+        // input[type='checkbox']::-webkit-calendar-picker-indicator {
+        //   color: transparent;
+        //   background: none;
+        //   z-index: 1;
+        // }
+
+        &:last-of-type {
+          margin-bottom: 0px;
+        }
+
+        &.phone-num-code-block {
+          .phone-num-code-wrapper {
+            display: flex;
+            align-items: end;
+            column-gap: 10px;
+
+            .country-code {
+              flex-basis: 44px;
+              flex-grow: 0;
+            }
+            .phone-number {
+              flex-grow: 1;
+              .form-control {
+                padding: 0.175rem 0.75rem;
+              }
+            }
+          }
+        }
+
+        .input-bottom-divider {
+          margin: 3px 0px 0px 0px;
+          height: 1px;
+          background-color: #7e9096;
+          opacity: 1;
+        }
+      }
+
+      .form-input-textarea {
+        margin-bottom: 24px;
+        .form-label {
+          margin-bottom: 3px;
+          @include ophs-fonts(12, 300, 28px);
+          color: #7e9096;
+        }
+
+        .asterisk-mark {
+          color: red;
+        }
+
+        .form-control {
+          border: 1px solid rgba(255, 255, 255, 0.4);
+          background: transparent;
+          // padding: 0;
+          // line-height: 10px;
+          @include ophs-fonts(14, 300);
+          color: #ffffff;
+
+          &::placeholder {
+            color: #525e62;
+          }
+        }
+
+        .edit-form-control-bottom-border {
+          margin: 3px 0px 0px 0px;
+          height: 1px;
+          background-color: rgba(255, 255, 255, 0.4);
+          opacity: 1;
+        }
+      }
+
+      .input-form-area {
+        margin-bottom: 32px;
+        .input-form-area-header {
+          @include ophs-fonts(18, 400, 20px);
+          color: #ffffff;
+        }
+        .input-form-area-body {
+          margin-top: 16px;
+          // padding: 24px 16px;
+          // background: #162436;
+          border-radius: 4px;
+        }
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+
+      .btn-add {
+        @include ophs-fonts(12, 400, 20px);
+        color: #66e3cd;
+      }
+    }
+  }
+
+  .unit-form {
+    .unit-selection-block {
+      background: #2a3546;
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 20px;
+      justify-content: center;
+      padding-bottom: 14px;
+      p {
+        margin-bottom: 2px;
+      }
+      .single-unit-btn {
+        border-radius: 4px;
+        border: 1px solid #000;
+        padding: 10px;
+        width: 120px;
+        height: 100%;
+        position: relative;
+        background: transparent;
+
+        &.active {
+          border-color: #66e3cd;
+          border-radius: 8px;
+        }
+        svg {
+          position: absolute;
+          top: 3px;
+          right: 5px;
+        }
+      }
+    }
+    .form-block {
+      background: #384456;
+      padding: 18px;
+      // margin-left: -17px;
+      // margin-right: -17px;
+      position: relative;
+      .input-form-area-body {
+        // display: flex;
+        // flex-wrap: wrap;
+        // gap: 10px;
+        margin-bottom: 40px;
+        // .form-input-item
+        .unit-apartment-wrapper {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+
+          .unit-item {
+            flex-grow: 1;
+          }
+          .apartment-item {
+            flex-basis: auto;
+            margin-bottom: 24px;
+          }
+          @media only screen and (min-width: 360px) {
+            .apartment-item {
+              flex-basis: 150px;
+            }
+          }
+        }
+        .price-status-wrapper {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          column-gap: 40px;
+          row-gap: 10px;
+
+          .price-item {
+            flex-grow: 1;
+          }
+          .visibility-status-item {
+            flex-basis: auto;
+            margin-bottom: 24px;
+            padding-top: 25px;
+            .visibility-checkbox {
+              .form-check-input {
+                background-color: #d9d9d9;
+                border-color: #ffffff;
+                &:checked {
+                  background-color: #0d6efd;
+                }
+              }
+            }
+          }
+          @media only screen and (min-width: 360px) {
+            .visibility-status-item {
+              flex-basis: 150px;
+            }
+          }
+        }
+
+        @media only screen and (max-width: 360px) {
+          .price-status-wrapper {
+            column-gap: 10px;
+            row-gap: 10px;
+            .visibility-status-item {
+              padding-top: 0px;
+            }
+          }
+        }
+
+        @media only screen and (max-width: 360px) {
+          .form-input-item {
+            width: 100%;
+          }
+        }
+      }
+      .hide-btn {
+        position: absolute;
+        top: 29px;
+        right: 2px;
+        color: #df9393;
+        @include ophs-fonts(12, 400, 20px);
+        align-self: flex-start;
+      }
+    }
+  }
+
+  .brokerage-form-section {
+    .brokerage-form-wrapper {
+      .header-area {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 25px;
+        color: #7e9096;
+
+        p {
+          margin-bottom: 0px;
+        }
+        .title {
+          @include ophs-fonts(14, 300, 18px);
+          // padding-top: 2px;
+        }
+        .btn-add {
+          @include ophs-fonts(14, 300, 28px);
+          color: #8de2bf;
+          align-self: flex-start;
+        }
+      }
+      .input-form-area {
+        .input-form-area-body {
+          .brokerage-table-header {
+            @include ophs-fonts(12, 300, 28px);
+            font-style: italic;
+            color: #7e9096;
+          }
+          .brokerage-table-body {
+            tr {
+              td {
+                @include ophs-fonts(12, 300, 28px);
+                color: $white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .offer-form {
+    // background: #384456;
+
+    .header-area {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 25px;
+      color: #7e9096;
+      @include ophs-fonts(12, 300, 10px);
+      padding-left: 18px;
+      padding-right: 18px;
+      padding-bottom: 18px;
+
+      p {
+        margin-bottom: 0px;
+      }
+      .title {
+        @include ophs-fonts(14, 300, 18px);
+        padding-top: 10px;
+      }
+      .btn-add {
+        @include ophs-fonts(14, 300, 28px);
+        color: #8de2bf;
+        align-self: flex-start;
+      }
+    }
+    .list-view {
+      // background: #384456;
+      padding: 18px;
+      .single-list {
+        .bottom-block {
+          row-gap: 10px;
+          .left {
+            display: flex;
+            justify-content: space-between;
+            p {
+              margin-bottom: 0px;
+            }
+            .title-label {
+              @include ophs-fonts(14, 300, 28px);
+              color: #7e9096;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .poi-form-section {
+    .poi-form-wrapper {
+      .header-area {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 25px;
+        color: #7e9096;
+
+        p {
+          margin-bottom: 0px;
+        }
+        .title {
+          @include ophs-fonts(14, 300, 18px);
+          // padding-top: 2px;
+        }
+        .btn-add {
+          @include ophs-fonts(14, 300, 28px);
+          color: #8de2bf;
+          align-self: flex-start;
+        }
+      }
+      .input-form-area {
+        .input-form-area-body {
+          .poi-table-header {
+            @include ophs-fonts(12, 300, 28px);
+            font-style: italic;
+            color: #7e9096;
+          }
+          .poi-table-body {
+            tr {
+              td {
+                @include ophs-fonts(12, 300, 28px);
+                color: $white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .action-btn-block {
+    .save-btn {
+      border: none;
+      background: $base-active-color;
+      color: $black;
+      padding: 4px 26px;
+      margin-right: 10px;
+      @include ophs-fonts(10, 500, 20px);
+    }
+    .dlt-btn {
+      border: 1px solid red;
+      background: transparent;
+      color: $white;
+      // color: #8de2bf;
+      padding: 4px 16px;
+      margin-right: 10px;
+      @include ophs-fonts(10, 500, 20px);
+    }
+    .cancel-btn {
+      padding: 4px 16px;
+      @include ophs-fonts(10, 500, 20px);
+      color: #8de2bf;
+      border: 1px solid #8de2bf;
+      background: transparent;
+    }
+  }
+
+  .active-project-btn {
+    color: black;
+    border: none;
+  }
+  .inactive-project-btn {
+    color: red;
+    border: 1px solid red;
+    background-color: transparent;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

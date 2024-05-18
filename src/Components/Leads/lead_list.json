@@ -1,0 +1,288 @@
+[
+  {
+    "homebuyer_id": 2040,
+    "homebuyer_name": "Sajib HB",
+    "host_country_code": "91",
+    "host_phone_number": "9089800088",
+    "source_tag": null,
+    "host_contact_number": "+919089800088",
+    "last_used_at": "2023-10-12 12:05:07",
+    "last_used_at_human": "12th Oct 2023",
+    "lead_priority": "warm",
+    "host_name": "Bayes",
+    "team_name": "red-admin",
+    "role_name": "red-admin",
+    "elapsed_time_seconds": 4714,
+    "projects": [
+      {
+        "id": 30,
+        "name": "Blox Tardeo",
+        "location": "Tardeo",
+        "city": "Mumbai",
+        "host_name": "Bayes",
+        "role_name": "red-admin",
+        "host_contact_number": "+919089800088",
+        "location_city": "Tardeo, Mumbai",
+        "favourite": 0
+      }
+    ]
+  },
+  {
+    "homebuyer_id": 1272,
+    "homebuyer_name": "Anik",
+    "host_country_code": "91",
+    "host_phone_number": "9988887777",
+    "source_tag": null,
+    "host_contact_number": "+919988887777",
+    "last_used_at": "2023-05-13 07:08:18",
+    "last_used_at_human": "13th May 2023",
+    "lead_priority": "warm",
+    "host_name": "Anup HT Test",
+    "team_name": "red-admin",
+    "role_name": "red-admin",
+    "elapsed_time_seconds": 45,
+    "projects": [
+      {
+        "id": 30,
+        "name": "Blox Tardeo",
+        "location": "Tardeo",
+        "city": "Mumbai",
+        "host_name": "Anup HT Test",
+        "role_name": "red-admin",
+        "host_contact_number": "+919988887777",
+        "location_city": "Tardeo, Mumbai",
+        "favourite": 0
+      },
+      {
+        "id": 31,
+        "name": "Prescon Midtown Bay",
+        "location": "Tardeo",
+        "city": "Mumbai",
+        "host_name": "Bayes",
+        "role_name": "red-admin",
+        "host_contact_number": "+919089800088",
+        "location_city": "Tardeo, Mumbai",
+        "favourite": 0
+      },
+      {
+        "id": 31,
+        "name": "Akaasa",
+        "location": "Tardeo",
+        "city": "Mumbai",
+        "host_name": "Bayes",
+        "role_name": "red-admin",
+        "host_contact_number": "+919089800088",
+        "location_city": "Tardeo, Mumbai",
+        "favourite": 0
+      },
+      {
+        "id": 31,
+        "name": "Birla Niyaara",
+        "location": "Tardeo",
+        "city": "Mumbai",
+        "host_name": "Bayes",
+        "role_name": "red-admin",
+        "host_contact_number": "+919089800088",
+        "location_city": "Tardeo, Mumbai",
+        "favourite": 0
+      }
+    ]
+  },
+  {
+    "homebuyer_id": 2066,
+    "homebuyer_name": "Warinder Kini",
+    "host_country_code": "91",
+    "host_phone_number": "9089800088",
+    "source_tag": null,
+    "host_contact_number": "+919089800088",
+    "last_used_at": "2023-10-12 08:23:27",
+    "last_used_at_human": "12th Oct 2023",
+    "lead_priority": "warm",
+    "host_name": "Bayes",
+    "team_name": "red-admin",
+    "role_name": "red-admin",
+    "elapsed_time_seconds": 198,
+    "projects": [
+      {
+        "id": 30,
+        "name": "Blox Tardeo",
+        "location": "Tardeo",
+        "city": "Mumbai",
+        "host_name": "Bayes",
+        "role_name": "red-admin",
+        "host_contact_number": "+919089800088",
+        "location_city": "Tardeo, Mumbai",
+        "favourite": 0
+      }
+    ]
+  },
+  {
+    "homebuyer_id": 2076,
+    "homebuyer_name": "Custom User",
+    "host_country_code": "91",
+    "host_phone_number": "9120987245",
+    "source_tag": "viber",
+    "host_contact_number": "+919120987245",
+    "last_used_at": "2023-10-12 06:14:10",
+    "last_used_at_human": "12th Oct 2023",
+    "lead_priority": "warm",
+    "host_name": "Vineet Kaur",
+    "team_name": "red-marketing",
+    "role_name": "red-marketing",
+    "elapsed_time_seconds": 125,
+    "projects": [
+      {
+        "id": 30,
+        "name": "Blox Tardeo",
+        "location": "Tardeo",
+        "city": "Mumbai",
+        "host_name": "Vineet Kaur",
+        "role_name": "red-marketing",
+        "host_contact_number": "+919120987245",
+        "homebuyer_contact_number": "+917788112222",
+        "location_city": "Tardeo, Mumbai",
+        "favourite": 0
+      }
+    ]
+  },
+  {
+    "homebuyer_id": 2064,
+    "homebuyer_name": "Pallavi Bal",
+    "host_country_code": "91",
+    "host_phone_number": "9089800088",
+    "source_tag": null,
+    "host_contact_number": "+919089800088",
+    "last_used_at": "2023-10-11 11:05:03",
+    "last_used_at_human": "11th Oct 2023",
+    "lead_priority": "warm",
+    "host_name": "Bayes",
+    "team_name": "red-admin",
+    "role_name": "red-admin",
+    "elapsed_time_seconds": null,
+    "projects": [
+      {
+        "id": 30,
+        "name": "Blox Tardeo",
+        "location": "Tardeo",
+        "city": "Mumbai",
+        "host_name": "Bayes",
+        "role_name": "red-admin",
+        "host_contact_number": "+919089800088",
+        "location_city": "Tardeo, Mumbai",
+        "favourite": 0
+      }
+    ]
+  },
+  {
+    "homebuyer_id": 2063,
+    "homebuyer_name": "Aditya Dhamdhame",
+    "host_country_code": "91",
+    "host_phone_number": "9089800088",
+    "source_tag": null,
+    "host_contact_number": "+919089800088",
+    "last_used_at": "2023-10-11 11:05:02",
+    "last_used_at_human": "11th Oct 2023",
+    "lead_priority": "warm",
+    "host_name": "Bayes",
+    "team_name": "red-admin",
+    "role_name": "red-admin",
+    "elapsed_time_seconds": null,
+    "projects": [
+      {
+        "id": 30,
+        "name": "Blox Tardeo",
+        "location": "Tardeo",
+        "city": "Mumbai",
+        "host_name": "Bayes",
+        "role_name": "red-admin",
+        "host_contact_number": "+919089800088",
+        "location_city": "Tardeo, Mumbai",
+        "favourite": 0
+      }
+    ]
+  },
+  {
+    "homebuyer_id": 2062,
+    "homebuyer_name": "Akshay Kaur",
+    "host_country_code": "91",
+    "host_phone_number": "9089800088",
+    "source_tag": null,
+    "host_contact_number": "+919089800088",
+    "last_used_at": "2023-10-11 11:05:01",
+    "last_used_at_human": "11th Oct 2023",
+    "lead_priority": "warm",
+    "host_name": "Bayes",
+    "team_name": "red-admin",
+    "role_name": "red-admin",
+    "elapsed_time_seconds": null,
+    "projects": [
+      {
+        "id": 30,
+        "name": "Blox Tardeo",
+        "location": "Tardeo",
+        "city": "Mumbai",
+        "host_name": "Bayes",
+        "role_name": "red-admin",
+        "host_contact_number": "+919089800088",
+        "location_city": "Tardeo, Mumbai",
+        "favourite": 0
+      }
+    ]
+  },
+  {
+    "homebuyer_id": 2061,
+    "homebuyer_name": "Arin Singh",
+    "host_country_code": "91",
+    "host_phone_number": "9089800088",
+    "source_tag": null,
+    "host_contact_number": "+919089800088",
+    "last_used_at": "2023-10-11 11:04:59",
+    "last_used_at_human": "11th Oct 2023",
+    "lead_priority": "warm",
+    "host_name": "Bayes",
+    "team_name": "red-admin",
+    "role_name": "red-admin",
+    "elapsed_time_seconds": null,
+    "projects": [
+      {
+        "id": 30,
+        "name": "Blox Tardeo",
+        "location": "Tardeo",
+        "city": "Mumbai",
+        "host_name": "Bayes",
+        "role_name": "red-admin",
+        "host_contact_number": "+919089800088",
+        "location_city": "Tardeo, Mumbai",
+        "favourite": 0
+      }
+    ]
+  },
+  {
+    "homebuyer_id": 2060,
+    "homebuyer_name": "Harish Singh",
+    "host_country_code": "91",
+    "host_phone_number": "9089800088",
+    "source_tag": null,
+    "host_contact_number": "+919089800088",
+    "last_used_at": "2023-10-11 11:04:58",
+    "last_used_at_human": "11th Oct 2023",
+    "lead_priority": "warm",
+    "host_name": "Bayes",
+    "team_name": "red-admin",
+    "role_name": "red-admin",
+    "elapsed_time_seconds": null,
+    "projects": [
+      {
+        "id": 30,
+        "name": "Blox Tardeo",
+        "location": "Tardeo",
+        "city": "Mumbai",
+        "host_name": "Bayes",
+        "role_name": "red-admin",
+        "host_contact_number": "+919089800088",
+        "location_city": "Tardeo, Mumbai",
+        "favourite": 0
+      }
+    ]
+  }
+]

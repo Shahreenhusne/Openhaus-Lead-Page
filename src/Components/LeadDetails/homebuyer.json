@@ -1,0 +1,120 @@
+{
+  "status": 200,
+  "message": "Lead Details",
+  "data": {
+    "homebuyer_name": "Raima Tahini",
+    "host_name": "Yuvraj Marketing",
+    "host_contact_number": "+917658765668",
+    "role_name": "red-marketing",
+    "lead_priority": "warm",
+    "is_live": 0,
+    "recent_engagement": "11th Dec 2023",
+    "min_budget": 0,
+    "max_budget": 0,
+    "projects": [
+      {
+        "project_id": 28,
+        "project_name": "EON ONE",
+        "host_name": "Bayes Red Admin",
+        "role_name": "red-admin",
+        "host_contact_number": "+8801744820559",
+        "project_lead_priority": "warm",
+        "homebuyer_contact_number": "+916474596820",
+        "favourite": 0,
+        "total_elapsed_seconds": 96,
+        "apartment_types": [
+          {
+            "id": 51,
+            "name": "3BHK",
+            "code": "XX01",
+            "image": "https://ophs-api-bucket.s3.ap-south-1.amazonaws.com/projects/28/apartments/T_UI_OPRJ-28_apartment_XX01.jpg",
+            "total_elapsed_seconds": 9,
+            "project_name": "EON ONE",
+            "elapsed_time": 9,
+            "min_price": null,
+            "max_price": null
+          }
+        ],
+        "amenities": [
+          {
+            "id": 6,
+            "name": "Building View",
+            "code": 6,
+            "image": "https://ophs-api-bucket.s3.ap-south-1.amazonaws.com/projects/28/buildings/T_UI_OPRJ-28_EON ONE.jpg",
+            "total_elapsed_seconds": 5,
+            "project_name": "EON ONE"
+          },
+          {
+            "id": 37,
+            "name": "Rooftop",
+            "code": "AMN-03",
+            "image": "https://ophs-api-bucket.s3.ap-south-1.amazonaws.com/projects/28/common_amenities/T_UI_OPRJ-28_AMN-03.svg",
+            "total_elapsed_seconds": 2,
+            "project_name": "EON ONE"
+          }
+        ],
+        "last_used_at": "3rd Mar 24"
+      },
+      {
+        "project_id": 25,
+        "project_name": "ANTARIKSH ACE BANDRA",
+        "host_name": "Bayes Red Admin",
+        "role_name": "red-admin",
+        "host_contact_number": "+8801744820559",
+        "project_lead_priority": "warm",
+        "homebuyer_contact_number": "+914668413808",
+        "favourite": 0,
+        "total_elapsed_seconds": 96,
+        "apartment_types": [
+          {
+            "id": 25,
+            "name": "1BHK-B-457",
+            "code": "XX01",
+            "image": "https://ophs-api-bucket.s3.ap-south-1.amazonaws.com/projects/25/aparments/T_UI_OPRJ-25_apartment_XX01.jpg",
+            "total_elapsed_seconds": 9,
+            "project_name": "ANTARIKSH ACE BANDRA",
+            "elapsed_time": 9,
+            "min_price": null,
+            "max_price": null
+          }
+        ],
+        "amenities": [
+          {
+            "id": 46,
+            "name": "Outdoor Play Area",
+            "code": "AMN-12",
+            "image": "https://ophs-api-bucket.s3.ap-south-1.amazonaws.com/projects/25/common_amenities/T_UI_OPRJ-25_AMN-12.jpg",
+            "total_elapsed_seconds": 54,
+            "project_name": "ANTARIKSH ACE BANDRA"
+          },
+          {
+            "id": 49,
+            "name": "Landscaped Areas",
+            "code": "AMN-16",
+            "image": "https://ophs-api-bucket.s3.ap-south-1.amazonaws.com/projects/25/common_amenities/T_UI_OPRJ-25_AMN-16.jpg",
+            "total_elapsed_seconds": 26,
+            "project_name": "ANTARIKSH ACE BANDRA"
+          },
+          {
+            "id": 4,
+            "name": "Building View",
+            "code": 4,
+            "image": "https://ophs-api-bucket.s3.ap-south-1.amazonaws.com/projects/25/buildings/T_UI_OPRJ-25_ANTARIKSH ACE.jpg",
+            "total_elapsed_seconds": 5,
+            "project_name": "ANTARIKSH ACE BANDRA"
+          },
+          {
+            "id": 77,
+            "name": "Office Space",
+            "code": "AMN-03",
+            "image": "https://ophs-api-bucket.s3.ap-south-1.amazonaws.com/",
+            "total_elapsed_seconds": 2,
+            "project_name": "ANTARIKSH ACE BANDRA"
+          }
+        ],
+        "last_used_at": "4th Mar 24"
+      }
+    ],
+    "all_total_elapsed_time": 93
+  }
+}

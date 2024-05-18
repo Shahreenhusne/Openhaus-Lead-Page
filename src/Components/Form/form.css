@@ -1,0 +1,49 @@
+.modal{
+  display: block;
+  margin: 0px auto 0;
+  font-size: 18px;
+  color: white;
+  background: transparent;
+  border: 0;
+  margin-right: 20px;
+
+}
+.modal.overlay{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 0;
+    position: fixed;
+}
+.content{
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background-color: #fff;
+  padding: 37px 24px 4px;
+  width:50%;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.modal.overlay.form-header {
+    color: #151313;
+    font-size: 24px;
+    font-size: 1.7142857143rem;
+    font-weight: 300;
+    line-height: 36px;
+    margin-bottom: 37px;
+    padding-bottom: 37px;
+}
+
+.modal.overlay.form-input-item:first-of-type {
+    margin-top: 37px;
+    margin-bottom: 24px
+}

@@ -1,0 +1,123 @@
+.main-card {
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #101a29;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #101a29;
+    box-shadow: inset 4px 0 0 transparent;
+    position: relative;
+  }
+  
+  .main-card-body {
+    padding: 15px;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .hot-lead {
+    box-shadow: inset 4px 0px 0px #ae4647;
+  }
+  
+  .warm-lead {
+    box-shadow: inset 4px 0px 0px #c07146;
+  }
+  
+  .cold-lead {
+    box-shadow: inset 4px 0px 0px #4948d0;
+  }
+  
+  .lost-lead {
+    box-shadow: inset 4px 0px 0px #443737;
+  }
+  
+  .name {
+    font-family: sans-serif ;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .time {
+    font-size: 14px;
+    color: white;
+  }
+  
+  .card-list{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .card-item{
+    background-color: #2a3546;
+      border-radius: 40px;
+      color: #fff;
+      display: inline-block;
+      list-style: none;
+      margin-bottom: 8px;
+      margin-right: 8px;
+      max-width: 100%;
+      overflow: hidden;
+      padding: 5px 10px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-family: sans-serif
+  }
+  
+  .lead-source {
+    margin-bottom: 5px;
+    color: gray;
+  }
+  
+  .lead-name {
+    color: white;
+    font-family: sans-serif
+  }
+  
+  .card-date {
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .date { 
+    font-size: 12px;
+    font-size: 0.8571428571rem;
+    font-weight: 400;
+    color: #fff;;
+    line-height: 30px;
+    margin-left: 3px;
+  }
+  
+  .ophs-icon {
+    width: 15px;
+    height: 18px;
+  
+  }
+  
+  .card-contact {
+    position: absolute;
+    top: 135px;
+    right: 10px;
+    color: #66e3cd;
+    cursor: pointer;
+  }
+  .btn.btn-primary {
+    background-color: #66e3cd;
+    border: 1px solid #66e3cd ;
+  }
+  
+  .btn-txt {
+    color: black;
+  }
+  .card-pointer {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    bottom: 0px;
+    right: 0;
+  }
